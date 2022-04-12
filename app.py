@@ -8,7 +8,7 @@ config = {
     "USE_RELOADER": True,
     "CACHE_TYPE": "FileSystemCache",  # Flask-Caching related configs
     "CACHE_DIR": "cache",
-    "CACHE_DEFAULT_TIMEOUT": 43200 # 12 hours
+    "CACHE_DEFAULT_TIMEOUT": 3600 # 1 hour
 }
 
 app = Flask(__name__)
